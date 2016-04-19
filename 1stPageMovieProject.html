@@ -1,0 +1,71 @@
+<!-- all code on this page was researched and created by me -->
+
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <!-- Latest compiled and minified CSS from Bootstrap API-->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!-- these next 3 script tags are for downloading the js file for the animations to work correctly -->
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js"></script>
+        <script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.slide.js"></script>
+        <!-- These next 2 lines call the CSS files needed for styling -->
+        <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="MovieProjectCSS.css">
+        <script src="1stPageMovieProject.js"></script>
+        <script src="2ndPageMovieProject.js"></script>
+        <title>OMDB Information</title>
+    </head>
+    <body>
+        <div class="container">
+           <h3 style="text-align: center">Which Movie Are You Interested In???</h3>
+            <!-- code below sets the design of the webpage -->
+            <!-- each row contains 6 posters to be displayed in a grid format -->
+             <div class="row">
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster0" src="" id=""  alt="0"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster1" src="" id=""  alt="1"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster2" src="" id=""  alt="2"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster3" src="" id=""  alt="3"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster4" src="" id=""  alt="4"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster5" src="" id=""  alt="5"></a>
+             </div>
+             <div class="row">
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster6" src="" id=""  alt="6"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster7" src="" id=""  alt="7"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster8" src="" id=""  alt="8"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster9" src="" id=""  alt="9"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster10" src="" id=""  alt="10"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster11" src="" id=""  alt="11"></a>
+             </div>
+             <div class="row">
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster12" src="" id=""  alt="12"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster13" src="" id=""  alt="13"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster14" src="" id=""  alt="14"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster15" src="" id=""  alt="15"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster16" src="" id=""  alt="16"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster17" src="" id=""  alt="17"></a>
+             </div>
+             <div class="row">
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster18" src="" id="" alt="18"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster19" src="" id="" alt="19"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster20" src="" id="" alt="20"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster21" src="" id="" alt="21"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster22" src="" id="" alt="22"></a>
+                <a href="2ndPageMovieProject.html"><img class="col-md-2" id="poster23" src="" id="" alt="23"></a>
+             </div>
+             <!-- This row is for user to enter in a movie they did not see on prior page -->
+             <div class="row" style="margin-bottom: 50px;">
+                <h4 class="col-md-4" style="width: initial; top: 10px; right: 15px;">Don't like these choices?</h4>
+                <form id="movieForm" action="2ndPageMovieProject.html">
+                    <input class="col-md-4" type="text" id="firstPageInput" name="movie" placeholder="Enter in a movie please..."></input>
+                    <button class="col-md-4" id="firstPageInputButton" style="color: yellow;">Show me my movie!!!</button>
+                </form>
+             </div>
+        </div>        
+    </body>
+</html>

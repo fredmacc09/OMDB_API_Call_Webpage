@@ -1,0 +1,58 @@
+<!-- all code on this page was researched and created by me -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- link to get bootstrap -->
+        <link href="bootstrap.min.css" rel="stylesheet" media="screen">  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!-- these next 3 script tags are for downloading the js file for the animations to work correctly -->
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js"></script>
+        <script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.slide.js"></script>
+        <!-- CSS file created by me for webpage styling -->
+        <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="MovieProjectCSS.css">
+         <script src="1stPageMovieProject.js"></script>
+        <script src="2ndPageMovieProject.js"></script>
+        <title>OMDb Information</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div id="content">
+                <h1 id="secondPageH1" val="">Here is your movie...</h1>
+                <!-- This row holds the Movie poster to be displayed -->
+                <div class="row">
+                    <div class=" col-md-6">
+                        <img id="poster" src="" style="display: none"></img>
+                    </div>
+                    <!-- This part of the row holds all of the information about the movie -->
+                    <div class="pull-right col-md-6">
+                        <div id="title" style="display: none"><b style=" color: #4CAF50;">Title: </b></div>
+                        <div id="year" style="display: none"><b style=" color: #4CAF50;">Year: </b></div>
+                        <div id="imdbRating" style="display: none"><b style=" color: #4CAF50;">Rating: </b></div>
+                        <div id="runtime" style="display: none"><b style=" color: #4CAF50;">Runtime: </b></div>
+                        <div id="genre" style="display: none"><b style=" color: #4CAF50;">Genre: </b></div>
+                        <div id="director" style="display: none"><b style=" color: #4CAF50;">Director: </b></div>
+                        <div id="actors" style="display: none"><b style=" color: #4CAF50;">Actors: </b></div>
+                        <div id="plot" style="display: none"><b style=" color: #4CAF50;">Plot: </b></div>
+                    </div>
+                </div>
+                <!-- This row is for the user input to choose a different movie -->
+                <div class="row">
+                    <form action="1stPageMovieProject.html">
+                        <button class="col-md-3" id="movieSelection" style="border: 2px solid #008CBA; color: #008CBA;">Click here for a previous option!!!</button>
+                    </form>
+                    <form id="movieForm" action="2ndPageMovieProject.html">
+                        <h4 class="col-md-3">Want to choose another movie?</h4>
+                        <input class="col-md-3" type="text" id="secondPageInput" name="movie" placeholder="Enter in a movie please..." style="height: 30px, top: 6px"></input>
+                        <button class="col-md-3" id="secondPageInputButton" style="color: #FFFF00;">Click me to see your movie!!!</button>
+                    </form>
+                 </div>
+            </div>
+        </div>        
+    </body>
+</html>
